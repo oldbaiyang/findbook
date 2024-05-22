@@ -167,7 +167,7 @@ export default defineConfig<ThemeConfig>({
         //     }
         // },
         website: {
-            copyadd: true, //用户复制页面内容时尾巴自动添加版权声明
+            copyadd: false, //用户复制页面内容时尾巴自动添加版权声明
             perpage: 12, //列表页每页显示数量
             homeBanner: false, //显示首页 banner,banner列表在上面 banner中配置
             bannerHeight: 200, //banner高度

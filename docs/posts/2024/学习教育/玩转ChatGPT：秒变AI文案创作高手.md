@@ -15,9 +15,9 @@ description:
 ---
 # 玩转ChatGPT：秒变AI文案创作高手
 
-<img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/202404282140309.png" width="100" height="100" alt="图片名称" align=center />
+<!-- <img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/202404282140309.png" width="100" height="100" alt="图片名称" align=center /> -->
 
-<!-- ![](https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/202404282140309.png) -->
+![](https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/202404282140309.png)
 
 ## 内容简介：
 本书是一本教你如何使用ChatGPT与AIGC工具提升写作能力的实用手册。

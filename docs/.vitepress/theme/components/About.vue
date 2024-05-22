@@ -13,7 +13,7 @@
         <div class="list">
             <h4 class="h4">-- 信息 --</h4>
             <ul class="ul">
-                <li class="li"><label class="label">博主</label><span>小鱼哥</span></li>
+                <li class="li"><label class="label">博主</label><span>棋飞</span></li>
                 <li class="li"><label class="label">程序</label><span>Vitepress</span></li>
                 <li class="li"><label class="label">图标</label><span>remixicon</span></li>
                 <li class="li"><label class="label">音乐</label><span>来源网络</span></li>

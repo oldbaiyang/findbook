@@ -18,7 +18,20 @@ export default defineConfig<ThemeConfig>({
     },
     title: '棋飞找书网',
     base: '/',
-    head,
+    head: [
+        [
+          'script',
+          {
+            async: '',
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-QRC0BZBNWR'
+          }
+        ],
+        [
+          'script',
+          {},
+          "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-QRC0BZBNWR');"
+        ]
+      ],
     description: '棋飞找书网 -pdf,txt,mobi,azw3,epub 把时间交给阅读',
     ignoreDeadLinks: true,
     themeConfig: {

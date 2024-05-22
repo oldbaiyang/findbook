@@ -2,6 +2,11 @@ import {
   setupDevtoolsPlugin
 } from "./chunk-J4VLYDXT.js";
 import {
+  del,
+  isVue2,
+  set
+} from "./chunk-6NMAXBHK.js";
+import {
   computed,
   effectScope,
   getCurrentInstance,
@@ -22,25 +27,6 @@ import {
   watch
 } from "./chunk-RY5ODQAQ.js";
 import "./chunk-Y2F7D3TJ.js";
-
-// node_modules/pinia/node_modules/vue-demi/lib/index.mjs
-var isVue2 = false;
-function set(target, key, val) {
-  if (Array.isArray(target)) {
-    target.length = Math.max(target.length, key);
-    target.splice(key, 1, val);
-    return val;
-  }
-  target[key] = val;
-  return val;
-}
-function del(target, key) {
-  if (Array.isArray(target)) {
-    target.splice(key, 1);
-    return;
-  }
-  delete target[key];
-}
 
 // node_modules/pinia/dist/pinia.mjs
 var activePinia;

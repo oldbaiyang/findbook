@@ -12,7 +12,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev docs --open --host 0.0.0.0",
-    "build": "vitepress build docs",
+    "build": "vitepress build docs --host 0.0.0.0",
     "serve": "vitepress serve docs"
   },
   "keywords": [

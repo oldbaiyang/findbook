@@ -2,15 +2,15 @@
   <!-- 公众号 -->
   <div class="gzharea">
     <div style="text-align: center;">
-      <p class="title">分享流行的前端产品</p>
-      <p style="margin-top: 5px;">技术｜源码｜设计｜参考</p>
+      <p class="title">分享AI技术，日常收获</p>
+      <p style="margin-top: 5px;">技术｜AI｜读书</p>
     </div>
-    <div><img src="https://cdn.enshimama.com/appbeebee/posts/gzh.png" alt="公众号二维码" /></div>
+    <div><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/qrcode_for_gh_af8b4a83532b_258.jpg" alt="公众号二维码" /></div>
     <div>
       <p>
-        扫码关注APP比比公众号</p>
+        扫码关注棋飞</p>
       <p style="margin-top: 5px;">
-        第一时间传递给你</p>
+        </p>
     </div>
   </div>
 </template>

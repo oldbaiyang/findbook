@@ -51,8 +51,6 @@
             </div>
 
           </div>
-          <div class="nickname"><a :href="theme?.article?.cc?.authorLink" target="_blank">博主：{{ theme?.article?.cc?.author
-          }}</a></div>
         </div>
         <div class="social">
           <ul class="ul">
@@ -110,10 +108,7 @@
           </ul>
         </div>
         <div class="total" v-if="type !== 'articlelist'">
-          <div class="cell views">
-            <strong class="strong">9999+</strong>
-            <span class="span">访问</span>
-          </div>
+
           <div class="cell posts">
             <strong class="strong">{{ totalArticles.length }}</strong>
             <span class="span">内容</span>

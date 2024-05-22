@@ -39,31 +39,6 @@
         v-for="(item, key) in data"><a class="a" :href="withBase(`/?category=${key.toString()}`)">{{ key }}<strong
             class="VPBadge tip strong mini">{{ data[key].length }}</strong></a></li>
     </ul>
-    <h4 class="h4"><svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-        <path
-          d="M22 20V7L20 3H4L2 7.00353V20C2 20.5523 2.44772 21 3 21H21C21.5523 21 22 20.5523 22 20ZM4 9H20V19H4V9ZM5.236 5H18.764L19.764 7H4.237L5.236 5ZM15 11H9V13H15V11Z"
-          fill="currentColor"></path>
-      </svg>其他</h4>
-    <ul class="ul">
-      <li class="li" @click="choose('feed')"
-        :class="{ on: (page.relativePath == 'pages/feed.md' && selected === '') || selected === 'feed' }">
-        <a class="a" :href="withBase(`/pages/feed`)"><svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path
-              d="M3 3C12.9411 3 21 11.0589 21 21H18C18 12.7157 11.2843 6 3 6V3ZM3 10C9.07513 10 14 14.9249 14 21H11C11 16.5817 7.41828 13 3 13V10ZM3 17C5.20914 17 7 18.7909 7 21H3V17Z"
-              fill="currentColor"></path>
-          </svg>订阅更新</a>
-      </li>
-      <li class="li" @click="choose('tools')"
-        :class="{ on: (page.relativePath == 'pages/tools.md' && selected === '') || selected === 'tools' }"><a class="a"
-          :href="withBase(`/pages/tools`)"><svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path
-              d="M4.96488 5.09625L8.5107 17.5066L11.5514 11.4253L17.188 9.17062L4.96488 5.09625ZM2.89945 2.29958L21.7052 8.56818C21.9672 8.6555 22.1088 8.93866 22.0215 9.20063C21.975 9.34016 21.8694 9.45214 21.7328 9.50676L13.0002 12.9998L8.57501 21.8501C8.45151 22.0971 8.15118 22.1972 7.90419 22.0737C7.77883 22.011 7.68553 21.8986 7.64703 21.7639L2.26058 2.91129C2.18472 2.64577 2.33846 2.36903 2.60398 2.29316C2.70087 2.26548 2.80386 2.26772 2.89945 2.29958Z"
-              fill="currentColor"></path>
-          </svg>友情链接</a></li>
-          <li class="li" @click="choose('about')"
-        :class="{ on: (page.relativePath == 'pages/about.md' && selected === '') || selected === 'about' }"><a class="a"
-          :href="withBase(`/pages/about`)"><svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 13V5H6V13C6 14.1046 6.89543 15 8 15H14C15.1046 15 16 14.1046 16 13ZM5 3H20C21.1046 3 22 3.89543 22 5V8C22 9.10457 21.1046 10 20 10H18V13C18 15.2091 16.2091 17 14 17H8C5.79086 17 4 15.2091 4 13V4C4 3.44772 4.44772 3 5 3ZM18 5V8H20V5H18ZM2 19H20V21H2V19Z" fill="currentColor"></path></svg>关于本站</a></li>
-    </ul>
   </div>
 </template>
 

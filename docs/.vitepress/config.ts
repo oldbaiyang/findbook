@@ -198,5 +198,8 @@ export default defineConfig<ThemeConfig>({
             heading: '共 {{searchResult}} 条结果'
         })]
     },
-    buildEnd: genFeed
+    buildEnd: genFeed,
+    sitemap: {
+        hostname: 'https://findbook.org'
+      }
 })

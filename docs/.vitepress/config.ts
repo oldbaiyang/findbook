@@ -75,18 +75,18 @@ export default defineConfig<ThemeConfig>({
                 "lrc": ""
             }
         ],
-        banner: [ //主页轮播，不需要就注释掉
-            {
-                link: '/posts/2024/01/freebie-chinese-font.html',
-                image: 'https://image.baidu.com/search/down?url=https://fc.sinaimg.cn/large/6364aa43gy1hlxg58m6w3j21z40m8dis.jpg',
-                title: ''
-            },
-            {
-                link: '/posts/2024/01/freebie-chinese-font.html',
-                image: 'https://image.baidu.com/search/down?url=https://fc.sinaimg.cn/large/6364aa43gy1hlxg58m6w3j21z40m8dis.jpg',
-                title: ''
-            }
-        ],
+        // banner: [ //主页轮播，不需要就注释掉
+        //     {
+        //         link: '/posts/2024/01/freebie-chinese-font.html',
+        //         image: 'https://image.baidu.com/search/down?url=https://fc.sinaimg.cn/large/6364aa43gy1hlxg58m6w3j21z40m8dis.jpg',
+        //         title: ''
+        //     },
+        //     {
+        //         link: '/posts/2024/01/freebie-chinese-font.html',
+        //         image: 'https://image.baidu.com/search/down?url=https://fc.sinaimg.cn/large/6364aa43gy1hlxg58m6w3j21z40m8dis.jpg',
+        //         title: ''
+        //     }
+        // ],
         // search: {
         //     provider: 'local',
         //     options: {
@@ -169,8 +169,8 @@ export default defineConfig<ThemeConfig>({
         website: {
             copyadd: false, //用户复制页面内容时尾巴自动添加版权声明
             perpage: 12, //列表页每页显示数量
-            homeBanner: false, //显示首页 banner,banner列表在上面 banner中配置
-            bannerHeight: 200, //banner高度
+            // homeBanner: false, //显示首页 banner,banner列表在上面 banner中配置
+            // bannerHeight: 200, //banner高度
             showWelcome: false, //是否显示首页底部右下角弹框，（调试时弹框不显示的话先关闭浏览器再运行，因为有可能开启了缓存）内容请在组件.vitepress/theme/components/Welcome.vue编写
             welcomeusestate: false, //底部弹框是否使用sessionStorage缓存(即不关闭页面仅显示一次)
             welcome: {

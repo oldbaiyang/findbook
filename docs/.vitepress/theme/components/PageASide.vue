@@ -130,7 +130,7 @@ import { useData } from 'vitepress';
 import type { Song } from '../../theme/types';
 import { data as themeposts } from '../posts.data'
 const { theme, frontmatter } = useData();
-const { pushPlayList } = usePlayerStore();
+// const { pushPlayList } = usePlayerStore();
 const {
   togglePlay,
   isPause

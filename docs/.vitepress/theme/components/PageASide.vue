@@ -126,7 +126,7 @@
 <script lang="ts" setup>
 import { ref, onMounted, computed, toRefs } from 'vue'
 import { useData } from 'vitepress';
-import { usePlayerStore } from '../../store/player';
+// import { usePlayerStore } from '../../store/player';
 import type { Song } from '../../theme/types';
 import { data as themeposts } from '../posts.data'
 const { theme, frontmatter } = useData();

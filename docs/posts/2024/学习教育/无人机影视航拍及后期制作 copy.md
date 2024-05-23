@@ -1,0 +1,42 @@
+---
+
+post: true
+
+title: 无人机影视航拍及后期制作
+
+date: 2024-05-23 21:30
+
+cover: https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/660beb0a9f345e8d03fad8e7.jpg
+
+coveross: https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/660beb0a9f345e8d03fad8e7.jpg
+
+categories:
+
+  - 学习教育
+
+tags:
+
+  - 学习
+  - 摄影
+
+description:
+---
+
+## 无人机影视航拍及后期制作
+<img alt="无人机影视航拍及后期制作 " class="aligncenter loading" data-was-processed="true" decoding="async" fetchpriority="high" height="471" src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/660beb0a9f345e8d03fad8e7.jpg " style="cursor: zoom-in;" width="314"/>
+
+## 内容简介：
+
+本书为无人机相关专业应用型人才培养的系列教材之一。
+
+全书总共分为六个模块，围绕着航拍摄影基础、图片摄影、航拍视频、摄影剪辑等内容进行了详细阐述，并针对无人机航拍的实际运用，对剪辑应用软件以及如何提升摄影的美感进行了重点介绍，便于读者学习和提高航拍摄影水平。
+
+本书适用于职业院校无人机工程类、应用类以及航空飞行器类专业教学，也可作为培训类学校无人机相关课程教学用书，还可以给无人机爱好者作为参考资料使用。
+
+## 无人机影视航拍及后期制作 电子书下载：
+
+ （访问密码：9080）
+
+无人机影视航拍及后期制作.zip: 
+
+https://url40.ctfile.com/f/24033340-1248638932-fef604?p=7827 (访问密码: 7827)

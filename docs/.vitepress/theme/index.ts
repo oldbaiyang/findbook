@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-import Firework from './components/Firework.vue'
+// import Firework from './components/Firework.vue'
 import Lantern from './components/Lantern.vue'
 import NewLayout from './components/NewLayout.vue'
 import Archives from './components/Archives.vue'
@@ -41,7 +41,7 @@ export default {
     Layout: NewLayout,  //
     enhanceApp:({app}) => {
         // 注册全局组件
-        app.component('Firework', Firework)
+        // app.component('Firework', Firework)
         app.component('Lantern', Lantern)
         app.component('Tags', Tags)
         app.component('Archives', Archives)

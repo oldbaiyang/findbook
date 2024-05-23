@@ -39,9 +39,9 @@
         <template #sidebar-nav-before>
             <PageNavi />
            
-                <div class="fireworkwrap">
+                <!-- <div class="fireworkwrap">
                     <Firework></Firework>
-                </div>
+                </div> -->
         </template>
         <template #doc-top>
             <ClientOnly>

@@ -28,7 +28,7 @@
             <!-- 在导航搜索框💰添加 -->
             <ClientOnly>
                 <div v-if="!isPause" class="" style="padding-left: 32px;position: relative;height:40px;margin-right:0px;">
-                    <Player />
+                    <!-- <Player /> -->
                 </div>
             </ClientOnly>
 
@@ -77,13 +77,13 @@
 <script lang="ts" setup>
 import { computed, toRefs,onMounted,ref } from 'vue';
 import { useData, useRouter } from 'vitepress';
-import { usePlayerStore } from '../../store/player';
+// import { usePlayerStore } from '../../store/player';
 import md5 from 'blueimp-md5';
 import DefaultTheme from 'vitepress/theme'
 import Copyright from './Copyright.vue'
-import Player from './Player.vue';
+// import Player from './Player.vue';
 
-const { isPause } = toRefs(usePlayerStore());
+// const { isPause } = toRefs(usePlayerStore());
 const { page, theme, frontmatter, isDark } = useData();
 const { Layout } = DefaultTheme
 

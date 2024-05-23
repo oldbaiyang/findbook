@@ -15,10 +15,10 @@ import { useData,useRouter } from 'vitepress'
 import { data as themeposts } from '../posts.data'
 import { formatSearch } from '../../theme/functions'
 import { toast, type ToastOptions } from 'vue3-toastify';
-import Welcome from "../../theme/components/Welcome.vue";
+// import Welcome from "../../theme/components/Welcome.vue";
 import Page from "../../theme/components/Page.vue";
 const { theme } = useData();
-const welcomestate = useStorage('weclome', false, sessionStorage)
+// const welcomestate = useStorage('weclome', false, sessionStorage)
 const router = useRouter()
 const location = useBrowserLocation()
 const activeTag = ref('')
@@ -126,18 +126,18 @@ watch(
   }
 )
 onMounted(() => {
-  if (theme.value?.website?.showWelcome&&((theme.value?.website?.welcomeusestate&&!welcomestate.value) || !theme.value?.website?.welcomeusestate)) {
-    nextTick(() => {
-      toast(Welcome, {
-        autoClose: theme.value?.website?.welcome?.autoClose?theme.value.website.welcome.autoClose:false,
-        "closeOnClick": false,
-        position: toast.POSITION.BOTTOM_RIGHT,
-      } as ToastOptions);
-      if(theme.value?.website?.welcomeusestate&&!welcomestate.value) {
-      welcomestate.value = true
-    }
-    });
-  }
+  // if (theme.value?.website?.showWelcome&&((theme.value?.website?.welcomeusestate&&!welcomestate.value) || !theme.value?.website?.welcomeusestate)) {
+  //   nextTick(() => {
+  //     toast(Welcome, {
+  //       autoClose: theme.value?.website?.welcome?.autoClose?theme.value.website.welcome.autoClose:false,
+  //       "closeOnClick": false,
+  //       position: toast.POSITION.BOTTOM_RIGHT,
+  //     } as ToastOptions);
+  //     if(theme.value?.website?.welcomeusestate&&!welcomestate.value) {
+  //     welcomestate.value = true
+  //   }
+  //   });
+  // }
 });
 </script>
 <style>

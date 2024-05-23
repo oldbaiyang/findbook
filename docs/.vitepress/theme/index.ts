@@ -42,11 +42,11 @@ export default {
     enhanceApp:({app}) => {
         // 注册全局组件
         // app.component('Firework', Firework)
-        app.component('Lantern', Lantern)
+        // app.component('Lantern', Lantern)
         app.component('Tags', Tags)
         app.component('Archives', Archives)
-        app.component('About', About)
-        app.component('Feed', Feed)
+        // app.component('About', About)
+        // app.component('Feed', Feed)
         app.component('Home', Home)
         app.component('Page', Page)
         app.component('ArticleMetadata', ArticleMetadata)
@@ -62,10 +62,10 @@ export default {
         app.component('PageSlider', PageSlider)
         app.component('ArticleList', ArticleList)
         app.component('ArticlePage', ArticlePage)
-        app.component('Player', Player)
+        // app.component('Player', Player)
         app.component('Tools', Tools)
-        app.component('Links', Links)
-        app.component('Welcome', Welcome)
+        // app.component('Links', Links)
+        // app.component('Welcome', Welcome)
         app.use(pinia)
         app.use(FloatingVue, {
             themes: {

@@ -203,14 +203,19 @@ export default defineConfig<ThemeConfig>({
             port: 5000,
             host: '0.0.0.0'
         },
-        plugins: [pagefindPlugin({   //使用 pagefind搜索插件 https://www.npmjs.com/package/vitepress-plugin-pagefind
-            customSearchQuery: chineseSearchOptimize,
-            resultoptimization: false,
-            // btnPlaceholder: '搜索文档',
-            // placeholder: '搜索文档',
-            // emptyText: '没有内容',
-            // heading: '共 {{searchResult}} 条结果'
-        })]
+        plugins: [
+            pagefindPlugin({   //使用 pagefind搜索插件 https://www.npmjs.com/package/vitepress-plugin-pagefind
+                customSearchQuery: chineseSearchOptimize,
+                // resultoptimization: false,
+                btnPlaceholder: '搜索文档',
+                placeholder: '搜索文档',
+                emptyText: '没有内容',
+                heading: '共 {{searchResult}} 条结果',
+                forceLanguage: 'zh-cn',
+                indexingCommand: 'npx pagefind --source "docs/.vitepress/dist" --bundle-dir "pagefind" --exclude-selectors "div.aside, a.header-anchor"'
+                
+            })
+        ]
     },
     // buildEnd: genFeed,
     sitemap: {

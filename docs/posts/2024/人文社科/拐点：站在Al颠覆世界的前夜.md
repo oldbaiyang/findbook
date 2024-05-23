@@ -4,7 +4,7 @@ post: true
 
 title: 拐点：站在Al颠覆世界的前夜
 
-date: 2024-05-22
+date: 2024-05-23
 
 cover: https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/6637230b0ea9cb14037235bf.jpg
 
@@ -16,21 +16,15 @@ categories:
 
 tags:
 
-  - 万维钢 
-
-  - 科技 
-
+  - 万维钢
+  - 科技
   - 科普
 
-description: 
-
+description:
 ---
 
-
-
-## 拐点：站在Al颠覆世界的前夜 
-
-![拐点：站在Al颠覆世界的前夜 ](https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/6637230b0ea9cb14037235bf.jpg)
+## 拐点：站在Al颠覆世界的前夜
+<img alt="拐点：站在Al颠覆世界的前夜 " class="aligncenter loading" data-was-processed="true" decoding="async" fetchpriority="high" height="471" src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/6637230b0ea9cb14037235bf.jpg " style="cursor: zoom-in;" width="314"/>
 
 ## 内容简介：
 
@@ -53,9 +47,6 @@ description:
 他在得到App开设的专栏《精英日课》，已经成为得到的“镇校之宝”，连续5季有10w+用户追更。
 
 ## 拐点：站在Al颠覆世界的前夜 电子书下载：
+拐点：站在Al颠覆世界的前夜.zip: 
 
-<a href="https://url54.ctfile.com/f/18000254-1242034483-bd879b?p=9080" target="_blank" rel="noopener">拐点：站在Al颠覆世界的前夜.zip</a> (访问密码: 9080)
-
-
-
-                    
+https://url40.ctfile.com/f/24033340-1248585814-513f83?p=7827 (访问密码: 7827)

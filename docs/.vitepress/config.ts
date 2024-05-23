@@ -206,10 +206,10 @@ export default defineConfig<ThemeConfig>({
         plugins: [pagefindPlugin({   //使用 pagefind搜索插件 https://www.npmjs.com/package/vitepress-plugin-pagefind
             customSearchQuery: chineseSearchOptimize,
             resultoptimization: false,
-            btnPlaceholder: '搜索文档',
-            placeholder: '搜索文档',
-            emptyText: '没有内容',
-            heading: '共 {{searchResult}} 条结果'
+            // btnPlaceholder: '搜索文档',
+            // placeholder: '搜索文档',
+            // emptyText: '没有内容',
+            // heading: '共 {{searchResult}} 条结果'
         })]
     },
     // buildEnd: genFeed,

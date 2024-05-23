@@ -65,7 +65,7 @@
         </template>
         <template #doc-footer-before>
            
-                <ArticleCC v-if="(frontmatter?.post)" />
+                <!-- <ArticleCC v-if="(frontmatter?.post)" /> -->
                 <ArticleRelate v-if="(frontmatter?.post)" :key="md5(page.relativePath)" />
   
         </template>

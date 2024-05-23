@@ -1,7 +1,7 @@
 
 <template>
   <!-- 首页。处理不同路由显示不同文章数据，包括 tag\category\year\month\pagesnum -->
-  <PageSlider></PageSlider>
+  <!-- <PageSlider></PageSlider> -->
   <PageNavi type="top" />
   <PageCtrol :bread="breadrxt" :count="posts.length" />
   <Page :posts="getposts" />

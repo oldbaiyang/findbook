@@ -54,7 +54,7 @@
         </div>
         <div class="social">
           <ul class="ul">
-            <template v-if="theme.website?.cardMusic">
+            <!-- <template v-if="theme.website?.cardMusic">
               <li class="li" v-if="isPause" @click="togglePlay">
 
                 <div class="group">
@@ -72,7 +72,7 @@
                   </svg>停止音乐
                 </div>
               </li>
-            </template>
+            </template> -->
             <template v-if="theme.website?.cardCoffee">
               <li class="li" @click="coffeepay" style="position: relative;">
                 <div v-if="pay" class="specialpop"
@@ -131,13 +131,13 @@ import type { Song } from '../../theme/types';
 import { data as themeposts } from '../posts.data'
 const { theme, frontmatter } = useData();
 // const { pushPlayList } = usePlayerStore();
-const {
-  togglePlay,
-  isPause
-} = toRefs(usePlayerStore());
+// const {
+//   togglePlay,
+//   isPause
+// } = toRefs(usePlayerStore());
 const songList = ref<Song[]>();
 songList.value = theme.value?.music ? theme.value.music : [];
-pushPlayList(true, ...songList.value);
+// pushPlayList(true, ...songList.value);
 const props = defineProps<{
   type?: string
 }>();

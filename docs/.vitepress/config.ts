@@ -47,10 +47,10 @@ export default defineConfig<ThemeConfig>({
             `
             var _hmt = _hmt || [];
             (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?f184cb5ab554036fcabd5ec010d8c8b1";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?f184cb5ab554036fcabd5ec010d8c8b1";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
             })();
             `
         ]

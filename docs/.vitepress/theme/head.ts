@@ -8,6 +8,7 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' }],
   ['meta', { property: 'og:image', content: '/logo.png' }],
   ['meta', { name: 'referrer', content: 'no-referrer' }],
+  ['meta', { name: 'baidu-site-verification', content: 'codeva-PBeHlXIgBh' }],
   // [
   //   'script',
   //   {},

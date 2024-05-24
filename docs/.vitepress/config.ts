@@ -19,7 +19,7 @@ export default defineConfig<ThemeConfig>({
     title: '棋飞找书网',
     base: '/',
     head: [
-        ['meta', { name: 'baidu-site-verification', content: 'codeva-PBeHlXIgBh' }],
+        ['meta', { name: 'baidu-site-verification', content: 'codeva-esGXkArew6' }],
         [
           'script',
           {

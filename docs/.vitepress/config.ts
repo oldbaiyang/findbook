@@ -31,7 +31,15 @@ export default defineConfig<ThemeConfig>({
           'script',
           {},
           "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-QRC0BZBNWR');"
-        ]
+        ],
+        [
+            'script',
+            {
+              async: '',
+              src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6967766161116772',
+              crossorigin: 'anonymous'
+            }
+          ]
       ],
     description: '棋飞找书网 -pdf,txt,mobi,azw3,epub 把时间交给阅读',
     ignoreDeadLinks: true,
